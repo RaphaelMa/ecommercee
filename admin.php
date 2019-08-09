@@ -42,7 +42,6 @@ $app->get('/admin/logout', function () {
 	exit;
 });
 
-
 $app->get("/admin/forgot", function(){
 
 	$page = new PageAdmin([
